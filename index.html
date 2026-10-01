@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andrew Willoughby</title>
+  <meta name="description" content="Academic website and research portfolio of Andrew Willoughby: plant regeneration, meristem biology, and plant genomics.">
+  <meta property="og:title" content="Andrew Willoughby">
+  <meta property="og:description" content="Academic website and research portfolio of Andrew Willoughby: plant regeneration, meristem biology, and plant genomics.">
+  <meta name="theme-color" content="#131317">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <nav class="wrap nav" aria-label="Main">
+      <a class="brand" href="#about">
+        <img src="images/logo.png" alt="" width="28" height="21">
+        <span id="brand-name">Andrew Willoughby</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about"      data-page="about">About</a></li>
+        <li><a href="#research"   data-page="research">Research</a></li>
+        <li><a href="#cv"         data-page="cv">CV</a></li>
+        <li><a href="#literature" data-page="literature" class="nav-accent">Literature Feed</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a id="nav-mail" class="icon-btn" href="#" title="Send an email" aria-label="Send an email" hidden></a>
+        <button id="nav-profile" class="icon-btn" type="button" title="Profile" aria-label="Open profile"></button>
+        <button id="menu-btn" class="icon-btn menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-links"></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="wrap">&copy; <span id="footer-year"></span> <span id="footer-name">Andrew Willoughby</span></div>
+  </footer>
+
+  <dialog id="profile-dialog" aria-label="Profile"></dialog>
+  <dialog id="lightbox" aria-label="Enlarged image"></dialog>
+
+  <noscript>
+    <p style="padding:6rem 1.5rem;color:#e4e1e7;font-family:sans-serif">This site needs JavaScript turned on to display its content.</p>
+  </noscript>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
