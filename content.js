@@ -268,7 +268,7 @@ window.SITE = {
       {
         title: "Floral Innovation and Development",
         description: "I have studied signaling during plant reproduction and floral development in *Arabidopsis thaliana* and evolutionary innovations in Asteraceae development.",
-        tags: ["Morphology", "Evo-Devo"]
+        tags: ["Genomics", "Evo-Devo"]
       }
     ]
   },
