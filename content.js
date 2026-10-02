@@ -208,6 +208,7 @@ window.SITE = {
       { image: "images/gallery/yellow-flower-head.jpg",         title: "Lettuce capitulescence",                  caption: "Focus stacking",                                                  category: "Photography" },
       { image: "images/gallery/streptocarpus-rexii.jpg",        title: "*Streptocarpus rexii*",                   caption: "Focus stacking",                                                  category: "Photography" },
       { image: "images/gallery/nls-gfp.jpg",                    title: "NLS-GFP",                                 caption: "Confocal",                                                        category: "Microscopy" },
+      { image: "images/gallery/devonian-cuticle.jpg",           title: "Fossilized Devonian cuticle",             caption: "Confocal autofluorescence, tiled",                                category: "Microscopy" },
       { image: "images/gallery/strep-art-1.jpg",                title: "*Streptocarpus* pattern I",               caption: "",                                                                category: "Art" },
       { image: "images/gallery/seedling-cartoon.jpg",           title: "Seedling",                                caption: "",                                                                category: "Art" },
       { image: "images/gallery/rexii-logo.png",                 title: "*Streptocarpus rexii* logo",              caption: "",                                                                category: "Art" },
